@@ -1,0 +1,609 @@
+[
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "Get",
+    "RelativePath": "profile/Profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "addCertification",
+    "RelativePath": "profile/Profile/addCertification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "certificate",
+        "Type": "Talent.Services.Profile.Models.Profile.AddCertificationViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "AddEducation",
+    "RelativePath": "profile/Profile/addEducation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Talent.Services.Profile.Models.Profile.AddEducationViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "AddInfo",
+    "RelativePath": "profile/Profile/addInfo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pValue",
+        "Type": "Talent.Services.Profile.Models.Profile.DescriptionViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "AddLanguage",
+    "RelativePath": "profile/Profile/addLanguage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "language",
+        "Type": "Talent.Services.Profile.Models.Profile.AddLanguageViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "AddSkill",
+    "RelativePath": "profile/Profile/addSkill",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "skill",
+        "Type": "Talent.Services.Profile.Models.Profile.AddSkillViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "AddTalentSuggestions",
+    "RelativePath": "profile/Profile/addTalentSuggestions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "talentSuggestions",
+        "Type": "Talent.Services.Profile.Models.AddTalentSuggestionList",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "DeleteCertification",
+    "RelativePath": "profile/Profile/deleteCertification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "certificate",
+        "Type": "Talent.Services.Profile.Models.Profile.AddCertificationViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "DeleteEducation",
+    "RelativePath": "profile/Profile/deleteEducation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Talent.Services.Profile.Models.Profile.AddEducationViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "DeleteLanguage",
+    "RelativePath": "profile/Profile/deleteLanguage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "language",
+        "Type": "Talent.Services.Profile.Models.Profile.AddLanguageViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "DeleteSkill",
+    "RelativePath": "profile/Profile/deleteSkill",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "skill",
+        "Type": "Talent.Services.Profile.Models.Profile.AddSkillViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "getCertification",
+    "RelativePath": "profile/Profile/getCertification",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "GetClientList",
+    "RelativePath": "profile/Profile/getClientList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "GetEducation",
+    "RelativePath": "profile/Profile/getEducation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "GetEmployerList",
+    "RelativePath": "profile/Profile/getEmployerList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "GetEmployerListFilter",
+    "RelativePath": "profile/Profile/getEmployerListFilter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Talent.Common.Models.SearchCompanyModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "GetEmployerProfile",
+    "RelativePath": "profile/Profile/getEmployerProfile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "role",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "GetWorkSample",
+    "RelativePath": "profile/Profile/getEmployerProfileImage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "GetWorkSampleImage",
+    "RelativePath": "profile/Profile/getEmployerProfileImages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "GetInfo",
+    "RelativePath": "profile/Profile/getInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "GetLanguages",
+    "RelativePath": "profile/Profile/getLanguage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "GetProfile",
+    "RelativePath": "profile/Profile/getProfile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "GetProfileById",
+    "RelativePath": "profile/Profile/getProfileById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "uid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "getProfileImage",
+    "RelativePath": "profile/Profile/getProfileImage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "GetSkills",
+    "RelativePath": "profile/Profile/getSkill",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "GetSuggestionList",
+    "RelativePath": "profile/Profile/getSuggestionList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employerOrJobId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "forJob",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "GetTalentSnapshots",
+    "RelativePath": "profile/Profile/getTalent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Position",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Number",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "GetTalentListAsync",
+    "RelativePath": "profile/Profile/getTalentList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "GetTalentListFilter",
+    "RelativePath": "profile/Profile/getTalentListFilter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Talent.Common.Models.SearchTalentModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "GetTalentProfile",
+    "RelativePath": "profile/Profile/getTalentProfile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "IsUserAuthenticated",
+    "RelativePath": "profile/Profile/isUserAuthenticated",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "SaveClientProfile",
+    "RelativePath": "profile/Profile/saveClientProfile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employer",
+        "Type": "Talent.Services.Profile.Models.Profile.EmployerProfileViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "SaveEmployerProfile",
+    "RelativePath": "profile/Profile/saveEmployerProfile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employer",
+        "Type": "Talent.Services.Profile.Models.Profile.EmployerProfileViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "UpdateCertification",
+    "RelativePath": "profile/Profile/updateCertification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "certificate",
+        "Type": "Talent.Services.Profile.Models.Profile.AddCertificationViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "UpdateEducation",
+    "RelativePath": "profile/Profile/updateEducation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Talent.Services.Profile.Models.Profile.AddEducationViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "UpdateEmployerPhoto",
+    "RelativePath": "profile/Profile/updateEmployerPhoto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "UpdateEmployerVideo",
+    "RelativePath": "profile/Profile/updateEmployerVideo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "UpdateLanguage",
+    "RelativePath": "profile/Profile/updateLanguage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "language",
+        "Type": "Talent.Services.Profile.Models.Profile.AddLanguageViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "UpdateProfilePhoto",
+    "RelativePath": "profile/Profile/updateProfilePhoto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "UpdateSkill",
+    "RelativePath": "profile/Profile/updateSkill",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "skill",
+        "Type": "Talent.Services.Profile.Models.Profile.AddSkillViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "UpdateTalentCV",
+    "RelativePath": "profile/Profile/updateTalentCV",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "UpdateTalentProfile",
+    "RelativePath": "profile/Profile/updateTalentProfile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profile",
+        "Type": "Talent.Services.Profile.Models.Profile.TalentProfileViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Profile.Controllers.ProfileController",
+    "Method": "UpdateTalentVideo",
+    "RelativePath": "profile/Profile/updateTalentVideo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

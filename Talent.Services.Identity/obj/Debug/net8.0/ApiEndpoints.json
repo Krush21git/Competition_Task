@@ -1,0 +1,175 @@
+[
+  {
+    "ContainingType": "Talent.Services.Identity.Controllers.AuthenticationController",
+    "Method": "AddNewClient",
+    "RelativePath": "authentication/Authentication/addNewClient",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Talent.Services.Identity.Domain.Models.Client.UpdateClientViewModal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Identity.Controllers.AuthenticationController",
+    "Method": "ChangePassword",
+    "RelativePath": "authentication/Authentication/changePassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Talent.Services.Identity.Domain.Models.ChangePasswordViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Identity.Controllers.AuthenticationController",
+    "Method": "ChangeUserName",
+    "RelativePath": "authentication/Authentication/changeUserName",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Identity.Controllers.AuthenticationController",
+    "Method": "DeactivateAccount",
+    "RelativePath": "authentication/Authentication/deactivateAccount",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Identity.Controllers.AuthenticationController",
+    "Method": "DeactivateClientAccount",
+    "RelativePath": "authentication/Authentication/deactivateClientAccount",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Identity.Controllers.AuthenticationController",
+    "Method": "GetAccountSettingInfo",
+    "RelativePath": "authentication/Authentication/getAccountSettingInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Identity.Controllers.AuthenticationController",
+    "Method": "GetSecuredInfo",
+    "RelativePath": "authentication/Authentication/getSecuredInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Identity.Controllers.AuthenticationController",
+    "Method": "SignIn",
+    "RelativePath": "authentication/Authentication/signin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Talent.Common.Commands.CreateUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Identity.Controllers.AuthenticationController",
+    "Method": "Signup",
+    "RelativePath": "authentication/Authentication/signup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Talent.Common.Commands.CreateUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Identity.Controllers.AuthenticationController",
+    "Method": "VeifyClientToken",
+    "RelativePath": "authentication/Authentication/verifyClientToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recruiterEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "clientEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "resetPasswordToken",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Talent.Services.Identity.Controllers.AuthenticationController",
+    "Method": "VerifyResetPasswordToken",
+    "RelativePath": "authentication/Authentication/verifyResetPasswordToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "o",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "p",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

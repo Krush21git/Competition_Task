@@ -1,0 +1,59 @@
+C:/Talent/Talent.Services.Identity/bin/Debug/netcoreapp2.0/Talent.Services.Identity.deps.json
+C:/Talent/Talent.Services.Identity/bin/Debug/netcoreapp2.0/Talent.Services.Identity.runtimeconfig.json
+C:/Talent/Talent.Services.Identity/bin/Debug/netcoreapp2.0/Talent.Services.Identity.runtimeconfig.dev.json
+C:/Talent/Talent.Services.Identity/bin/Debug/netcoreapp2.0/Talent.Services.Identity.dll
+C:/Talent/Talent.Services.Identity/bin/Debug/netcoreapp2.0/Talent.Services.Identity.pdb
+C:/Talent/Talent.Services.Identity/bin/Debug/netcoreapp2.0/Talent.Common.dll
+C:/Talent/Talent.Services.Identity/bin/Debug/netcoreapp2.0/Talent.Common.pdb
+C:/Talent/Talent.Services.Identity/obj/Debug/netcoreapp2.0/Talent.Services.Identity.csproj.CoreCompileInputs.cache
+C:/Talent/Talent.Services.Identity/obj/Debug/netcoreapp2.0/Talent.Services.Identity.AssemblyInfoInputs.cache
+C:/Talent/Talent.Services.Identity/obj/Debug/netcoreapp2.0/Talent.Services.Identity.AssemblyInfo.cs
+C:/Talent/Talent.Services.Identity/obj/Debug/netcoreapp2.0/Talent.Services.Identity.dll
+C:/Talent/Talent.Services.Identity/obj/Debug/netcoreapp2.0/Talent.Services.Identity.pdb
+C:/Talent/Talent.Services.Identity/obj/Debug/netcoreapp2.0/Talent.Services.Identity.csprojResolveAssemblyReference.cache
+C:/Talent-StandardTasks/Talent/Talent.Services.Identity/bin/Debug/netcoreapp2.0/Talent.Services.Identity.deps.json
+C:/Talent-StandardTasks/Talent/Talent.Services.Identity/bin/Debug/netcoreapp2.0/Talent.Services.Identity.runtimeconfig.json
+C:/Talent-StandardTasks/Talent/Talent.Services.Identity/bin/Debug/netcoreapp2.0/Talent.Services.Identity.runtimeconfig.dev.json
+C:/Talent-StandardTasks/Talent/Talent.Services.Identity/bin/Debug/netcoreapp2.0/Talent.Services.Identity.dll
+C:/Talent-StandardTasks/Talent/Talent.Services.Identity/bin/Debug/netcoreapp2.0/Talent.Services.Identity.pdb
+C:/Talent-StandardTasks/Talent/Talent.Services.Identity/bin/Debug/netcoreapp2.0/Talent.Common.dll
+C:/Talent-StandardTasks/Talent/Talent.Services.Identity/bin/Debug/netcoreapp2.0/Talent.Common.pdb
+C:/Talent-StandardTasks/Talent/Talent.Services.Identity/obj/Debug/netcoreapp2.0/Talent.Services.Identity.csprojResolveAssemblyReference.cache
+C:/Talent-StandardTasks/Talent/Talent.Services.Identity/obj/Debug/netcoreapp2.0/Talent.Services.Identity.csproj.CoreCompileInputs.cache
+C:/Talent-StandardTasks/Talent/Talent.Services.Identity/obj/Debug/netcoreapp2.0/Talent.Services.Identity.AssemblyInfoInputs.cache
+C:/Talent-StandardTasks/Talent/Talent.Services.Identity/obj/Debug/netcoreapp2.0/Talent.Services.Identity.AssemblyInfo.cs
+C:/Talent-StandardTasks/Talent/Talent.Services.Identity/obj/Debug/netcoreapp2.0/Talent.Services.Identity.dll
+C:/Talent-StandardTasks/Talent/Talent.Services.Identity/obj/Debug/netcoreapp2.0/Talent.Services.Identity.pdb
+C:/Talent-Competition/Talent/Talent.Services.Identity/bin/Debug/netcoreapp2.0/Talent.Services.Identity.deps.json
+C:/Talent-Competition/Talent/Talent.Services.Identity/bin/Debug/netcoreapp2.0/Talent.Services.Identity.runtimeconfig.json
+C:/Talent-Competition/Talent/Talent.Services.Identity/bin/Debug/netcoreapp2.0/Talent.Services.Identity.runtimeconfig.dev.json
+C:/Talent-Competition/Talent/Talent.Services.Identity/bin/Debug/netcoreapp2.0/Talent.Services.Identity.dll
+C:/Talent-Competition/Talent/Talent.Services.Identity/bin/Debug/netcoreapp2.0/Talent.Services.Identity.pdb
+C:/Talent-Competition/Talent/Talent.Services.Identity/bin/Debug/netcoreapp2.0/Talent.Common.dll
+C:/Talent-Competition/Talent/Talent.Services.Identity/bin/Debug/netcoreapp2.0/Talent.Common.pdb
+C:/Talent-Competition/Talent/Talent.Services.Identity/obj/Debug/netcoreapp2.0/Talent.Services.Identity.csprojResolveAssemblyReference.cache
+C:/Talent-Competition/Talent/Talent.Services.Identity/obj/Debug/netcoreapp2.0/Talent.Services.Identity.csproj.CoreCompileInputs.cache
+C:/Talent-Competition/Talent/Talent.Services.Identity/obj/Debug/netcoreapp2.0/Talent.Services.Identity.AssemblyInfoInputs.cache
+C:/Talent-Competition/Talent/Talent.Services.Identity/obj/Debug/netcoreapp2.0/Talent.Services.Identity.AssemblyInfo.cs
+C:/Talent-Competition/Talent/Talent.Services.Identity/obj/Debug/netcoreapp2.0/Talent.Services.Identity.dll
+C:/Talent-Competition/Talent/Talent.Services.Identity/obj/Debug/netcoreapp2.0/Talent.Services.Identity.pdb
+/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Identity/bin/Debug/netcoreapp2.0/appsettings.Development.json
+/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Identity/bin/Debug/netcoreapp2.0/appsettings.docker.Development.json
+/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Identity/bin/Debug/netcoreapp2.0/appsettings.docker.json
+/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Identity/bin/Debug/netcoreapp2.0/appsettings.json
+/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Identity/bin/Debug/netcoreapp2.0/Talent.Services.Identity.deps.json
+/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Identity/bin/Debug/netcoreapp2.0/Talent.Services.Identity.runtimeconfig.json
+/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Identity/bin/Debug/netcoreapp2.0/Talent.Services.Identity.runtimeconfig.dev.json
+/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Identity/bin/Debug/netcoreapp2.0/Talent.Services.Identity.dll
+/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Identity/bin/Debug/netcoreapp2.0/Talent.Services.Identity.pdb
+/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Identity/bin/Debug/netcoreapp2.0/Talent.Common.dll
+/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Identity/bin/Debug/netcoreapp2.0/Talent.Common.pdb
+/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Identity/obj/Debug/netcoreapp2.0/Talent.Services.Identity.csproj.AssemblyReference.cache
+/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Identity/obj/Debug/netcoreapp2.0/Talent.Services.Identity.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Identity/obj/Debug/netcoreapp2.0/Talent.Services.Identity.AssemblyInfoInputs.cache
+/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Identity/obj/Debug/netcoreapp2.0/Talent.Services.Identity.AssemblyInfo.cs
+/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Identity/obj/Debug/netcoreapp2.0/Talent.Services.Identity.csproj.CoreCompileInputs.cache
+/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Identity/obj/Debug/netcoreapp2.0/Talent.S.228F2EF0.Up2Date
+/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Identity/obj/Debug/netcoreapp2.0/Talent.Services.Identity.dll
+/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Identity/obj/Debug/netcoreapp2.0/Talent.Services.Identity.pdb
+/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Identity/obj/Debug/netcoreapp2.0/Talent.Services.Identity.genruntimeconfig.cache

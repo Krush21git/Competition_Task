@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Talent.Services.Identity\\Talent.Services.Identity.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Talent.Services.Profile\\Talent.Services.Profile.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Talent.Services.Listing\\Talent.Services.Listing.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "App\\Talent.App.WebApp\\Talent.App.WebApp.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,301 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Listing/Talent.Services.Talent.csproj": {}
+  },
+  "projects": {
+    "/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Common/Talent.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Common/Talent.Common.csproj",
+        "projectName": "Talent.Common",
+        "projectPath": "/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Common/Talent.Common.csproj",
+        "packagesPath": "/Users/danielchoi/.nuget/packages/",
+        "outputPath": "/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/danielchoi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AWSSDK.Core": {
+              "target": "Package",
+              "version": "[3.7.400.40, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.405.4, )"
+            },
+            "AWSSDK.SecurityToken": {
+              "target": "Package",
+              "version": "[3.7.100.14, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.19.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RawRabbit": {
+              "target": "Package",
+              "version": "[2.0.0-beta9, )"
+            },
+            "RawRabbit.DependencyInjection.ServiceCollection": {
+              "target": "Package",
+              "version": "[2.0.0-beta9, )"
+            },
+            "RawRabbit.Operations.Publish": {
+              "target": "Package",
+              "version": "[2.0.0-beta9, )"
+            },
+            "RawRabbit.Operations.Subscribe": {
+              "target": "Package",
+              "version": "[2.0.0-beta9, )"
+            },
+            "Sendgrid": {
+              "target": "Package",
+              "version": "[9.29.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Listing/Talent.Services.Talent.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Listing/Talent.Services.Talent.csproj",
+        "projectName": "Talent.Services.Talent",
+        "projectPath": "/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Listing/Talent.Services.Talent.csproj",
+        "packagesPath": "/Users/danielchoi/.nuget/packages/",
+        "outputPath": "/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Listing/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/danielchoi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Common/Talent.Common.csproj": {
+                "projectPath": "/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Common/Talent.Common.csproj"
+              },
+              "/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Profile/Talent.Services.Profile.csproj": {
+                "projectPath": "/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Profile/Talent.Services.Profile.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RawRabbit": {
+              "target": "Package",
+              "version": "[2.0.0-beta9, )"
+            },
+            "RawRabbit.DependencyInjection.ServiceCollection": {
+              "target": "Package",
+              "version": "[2.0.0-beta9, )"
+            },
+            "RawRabbit.Operations.Publish": {
+              "target": "Package",
+              "version": "[2.0.0-beta9, )"
+            },
+            "RawRabbit.Operations.Subscribe": {
+              "target": "Package",
+              "version": "[2.0.0-beta9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Profile/Talent.Services.Profile.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Profile/Talent.Services.Profile.csproj",
+        "projectName": "Talent.Services.Profile",
+        "projectPath": "/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Profile/Talent.Services.Profile.csproj",
+        "packagesPath": "/Users/danielchoi/.nuget/packages/",
+        "outputPath": "/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Services.Profile/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/danielchoi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Common/Talent.Common.csproj": {
+                "projectPath": "/Users/danielchoi/Documents/MVP Studio/talent-competition/Talent.Common/Talent.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RawRabbit": {
+              "target": "Package",
+              "version": "[2.0.0-beta9, )"
+            },
+            "RawRabbit.DependencyInjection.ServiceCollection": {
+              "target": "Package",
+              "version": "[2.0.0-beta9, )"
+            },
+            "RawRabbit.Operations.Publish": {
+              "target": "Package",
+              "version": "[2.0.0-beta9, )"
+            },
+            "RawRabbit.Operations.Subscribe": {
+              "target": "Package",
+              "version": "[2.0.0-beta9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Talent.App.WebApp.props" />
+</Project>
