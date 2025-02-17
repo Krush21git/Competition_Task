@@ -294,3 +294,13 @@ __pycache__/
 *.odx.cs
 *.xsd.cs
 sdonboarding/Configure.secrets.cs
+
+
+# Ignore environment files
+.env
+appsettings.json
+
+# Ignore AWS keys or other sensitive files
+*.key
+*.pem
+
