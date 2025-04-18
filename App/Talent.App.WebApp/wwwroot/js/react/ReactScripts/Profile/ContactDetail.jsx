@@ -8,7 +8,7 @@ export class IndividualDetailSection extends Component {
 
         const details = props.details ?
             Object.assign({}, props.details)
-            : {
+            :{
                 firstName: "",
                 lastName:"",
                 email: "",

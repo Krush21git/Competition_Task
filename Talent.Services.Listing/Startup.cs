@@ -44,10 +44,9 @@ namespace Talent.Services.Listing
             {
                 options.AddPolicy("AllowWebApp", builder =>
                 {
-                    builder.SetIsOriginAllowed(_ => true)  
+                    builder.AllowAnyOrigin()
                            .AllowAnyMethod()
-                           .AllowAnyHeader()
-                           .AllowCredentials();
+                           .AllowAnyHeader();
                 });
             });
 

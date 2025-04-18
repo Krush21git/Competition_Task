@@ -45,10 +45,9 @@ namespace Talent.Services.Profile
                 {
                     //builder
                     //    .WithOrigins("http://localhost:61771", "http://localhost:60998")
-                   builder.SetIsOriginAllowed(_ => true)
-                       .AllowAnyMethod()
-                        .AllowAnyHeader()
-                        .AllowCredentials();
+                    builder.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                         .AllowAnyHeader();
                 });
             });
 
@@ -117,8 +116,6 @@ namespace Talent.Services.Profile
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Talent Profile API v1");
                 c.RoutePrefix = string.Empty;
             });
-
-
 
             app.UseCors("AllowWebAppAccess");
 

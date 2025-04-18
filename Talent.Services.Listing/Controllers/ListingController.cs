@@ -13,6 +13,7 @@ using Talent.Common.Contracts;
 using MongoDB.Driver;
 using Talent.Services.Listing.Domain.Contracts;
 using Talent.Services.Profile.Domain.Contracts;
+using Talent.Services.Listing.Models;
 
 namespace Talent.Services.Listing.Controllers
 {
@@ -49,7 +50,7 @@ namespace Talent.Services.Listing.Controllers
 
         [HttpPost("createUpdateJob")]
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "employer, recruiter")]
-        public IActionResult CreateUpdateJob([FromBody]Job jobData)
+        public IActionResult CreateUpdateJob([FromBody] Job jobData)
         {
             try
             {
@@ -133,7 +134,7 @@ namespace Talent.Services.Listing.Controllers
                 return Json(new { Success = false, Message = "Error while retrieving data" });
             }
         }
-        
+
         [HttpGet("getJobForTalentMatching")]
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "recruiter")]
         public IActionResult getJobForTalentMatching([FromQuery] string Id)
@@ -151,12 +152,12 @@ namespace Talent.Services.Listing.Controllers
 
         [HttpGet("getEmployerJobs")]
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "employer, recruiter")]
-        public async Task<IActionResult> GetEmployerJobs(string employerId=null)
+        public async Task<IActionResult> GetEmployerJobs(string employerId = null)
         {
             try
             {
-                employerId =employerId==null? _userAppContext.CurrentUserId:employerId;
-                var myJobs = (await _jobService.GetEmployerJobsAsync(employerId)).Select(x => new { x.Id, x.Title, x.Summary, x.JobDetails.Location, x.Status, noOfSuggestions=x.TalentSuggestions!=null && x.TalentSuggestions.Count!=0 ?x.TalentSuggestions.Count:0 });
+                employerId = employerId == null ? _userAppContext.CurrentUserId : employerId;
+                var myJobs = (await _jobService.GetEmployerJobsAsync(employerId)).Select(x => new { x.Id, x.Title, x.Summary, x.JobDetails.Location, x.Status, noOfSuggestions = x.TalentSuggestions != null && x.TalentSuggestions.Count != 0 ? x.TalentSuggestions.Count : 0 });
                 return Json(new { Success = true, MyJobs = myJobs });
             }
             catch
@@ -179,7 +180,7 @@ namespace Talent.Services.Listing.Controllers
                     sortedJobs = sortedJobs.Where(x => x.Status != JobStatus.Active);
                 }
 
-                if(!showClosed)
+                if (!showClosed)
                 {
                     sortedJobs = sortedJobs.Where(x => x.Status != JobStatus.Closed);
                 }
@@ -212,23 +213,36 @@ namespace Talent.Services.Listing.Controllers
                     var returnJobs = sortedJobs.OrderBy(x => x.CreatedOn).Skip((activePage - 1) * limit).Take(limit)
                         .Select(x => new { x.Id, x.Title, x.Summary, x.JobDetails.Location, x.ExpiryDate, x.Status, noOfSuggestions = x.TalentSuggestions != null && x.TalentSuggestions.Count != 0 ? x.TalentSuggestions.Count : 0 });
                     return Json(new { Success = true, MyJobs = returnJobs, TotalCount = sortedJobs.Count() });
-                }                
+                }
             }
             catch
             {
                 return Json(new { Success = false, Message = "Error while retriving Jobs" });
             }
         }
-        
+
         [HttpPost("closeJob")]
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "employer, recruiter")]
-        public async Task<IActionResult> CloseJob([FromBody]string id)
+        public async Task<IActionResult> CloseJob([FromBody] string id)
         {
             try
             {
-                //userId is either Employer or Recruiter
-                string userId = (await _jobService.GetJobByIDAsync(id)).EmployerID;
-                
+                if (string.IsNullOrEmpty(id))
+                {
+                    return Json(new { Success = false, Message = "Invalid job ID received" });
+                }
+
+                Console.WriteLine($"Received Job ID: {id}"); // Debugging line
+
+                string userId = (await _jobService.GetJobByIDAsync(id))?.EmployerID;
+
+                if (string.IsNullOrEmpty(userId))
+                {
+                    return Json(new { Success = false, Message = "Job not found or EmployerID missing" });
+                }
+
+                Console.WriteLine($"Current User: {_userAppContext.CurrentUserId}, Job Owner: {userId}");
+
                 if (userId == _userAppContext.CurrentUserId)
                 {
                     var jobStatus = JobStatus.Closed;
@@ -236,13 +250,18 @@ namespace Talent.Services.Listing.Controllers
                     return Json(new { Success = true, Message = "Job updated successfully" });
                 }
                 else
-                    return Json(new { Success = false, Message = "You are not authorised to update this job" });
+                {
+                    return Json(new { Success = false, Message = "You are not authorized to update this job" });
+                }
             }
             catch (Exception e)
             {
-                return Json(new { Success = false, Message = "Error while updating job" });
+                Console.WriteLine($"Error: {e.Message}"); // Debugging line
+                return Json(new { Success = false, Message = "Error while updating job", Error = e.Message });
             }
         }
+
+
 
         [HttpGet("getWatchlistIds")]
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "employer, recruiter")]
@@ -277,6 +296,7 @@ namespace Talent.Services.Listing.Controllers
 
         [HttpPost("watchTalent")]
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "employer, recruiter")]
+
         public async Task<IActionResult> SetWatchlistStatusForTalent(string talentId, bool isWatching)
         {
             try
